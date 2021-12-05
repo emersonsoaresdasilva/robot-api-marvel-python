@@ -1,14 +1,13 @@
 <h1><img src = "https://i.imgur.com/rLnQWBQ.png"/></h1>
 
-Tá afim de aprender Automação de Testes para APIs Restful construindo uma arquitetura de testes profissional? Se a resposta for sim, você precisa fazer a sua inscrição na 1.ª Semana da Automação.
-
 Existem diversas ferramentas e frameworks para testes de APIs no mercado. Com produtividade e versatilidade, a Stack Robot Framework + Biblioteca Requests (python) vai te mostrar o caminho para construção de uma base sólida em Automação na camada de serviços.
 
 Esqueça códigos mirabolantes e desnecessários! Nesta semana vamos testar a API da Marvel, construindo testes automatizados com requisições HTTP no padrão REST, entendendo na prática o que são payloads, status code, token, headers e response body.  
 
 ### Ferramentas utilizadas:
 - Python. 🐍
-- Insomnia. 👿
+- Faker. 🥸
+- Insomnia. 🧿
 - Robot Framework. 🤖
 
 ### Configurar dependencias:
