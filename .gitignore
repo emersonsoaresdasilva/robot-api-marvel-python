@@ -1,0 +1,17 @@
+# Python
+venv
+__pycache__
+
+# Robot Framework
+log.html
+output.xml
+report.html
+
+# Edge Driver
+msedgedriver.exe
+
+# Screenshots
+*.png
+
+# API da Marvel
+Insomnia_Marvel.json
