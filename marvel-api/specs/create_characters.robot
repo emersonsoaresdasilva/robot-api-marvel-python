@@ -7,10 +7,6 @@ Library             ${EXECDIR}/resources/factories/guardians.py
 # Cria o gancho de execução dos testes
 Suite Setup         Super Setup     ${email}
 
-*** Variables ***
-${api}              http://marvel.qaninja.academy
-${email}            emersonsoares2001@gmail.com
-
 *** Test Cases ***
 Teste de integração de cadastro de personagens na API da Marvel
     # Cria o personagem da Marvel

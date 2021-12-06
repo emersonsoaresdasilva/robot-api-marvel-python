@@ -14,3 +14,27 @@ POST New Character
     ...                 expected_status=any
 
     [return]            ${response}
+
+GET Character By ID
+    [Arguments]         ${character_id}
+
+    # Envia requisição GET para a API da Marvel
+    ${response}         GET
+    ...                 ${api}/characters/${character_id}
+    ...                 headers=${headers}
+    # Valida o código de status da resposta depois...
+    ...                 expected_status=any
+
+    [return]            ${response}
+
+DELETE Character By ID
+    [Arguments]         ${character_id}
+
+    # Envia requisição DELETE para a API da Marvel
+    ${response}         DELETE
+    ...                 ${api}/characters/${character_id}
+    ...                 headers=${headers}
+    # Valida o código de status da resposta depois...
+    ...                 expected_status=any
+
+    [return]            ${response}

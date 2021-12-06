@@ -2,7 +2,12 @@
 Documentation           Aqui é tudo que é necessário para o funcionamento do sistema
 
 Library                 RequestsLibrary
+Library                 helpers.py
 Resource                routes/characters.robot
+
+*** Variables ***
+${api}              http://marvel.qaninja.academy
+${email}            emersonsoares2001@gmail.com
 
 *** Keywords ***
 Super Setup
